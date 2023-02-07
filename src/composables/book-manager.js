@@ -9,7 +9,7 @@ const bookManager = () => {
   });
 
   let books = ref([]);
-
+  
   const addBook = (book) => {
     // books.value.push(book);
     books.value = [...books.value, book];
